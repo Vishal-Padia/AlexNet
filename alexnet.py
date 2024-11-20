@@ -13,10 +13,10 @@ from torch.utils.data.sampler import SubsetRandomSampler
 wandb.init(
     project="AlexNet",
     config={
-        "learning_rate": 0.005,
+        "learning_rate": 0.001,
         "architecture": "AlexNet",
         "dataset": "CIFAR-10",
-        "epochs": 20,
+        "epochs": 5,
         "batch_size": 64,
         "weight_decay": 0.005,
         "momentum": 0.9,
